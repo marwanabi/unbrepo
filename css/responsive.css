@@ -1,0 +1,112 @@
+/*    Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-content {
+    padding: 30px 20px;
+  }
+  .single-content .content-block .post-share-icons ul li {
+    display: inline-block;
+  }
+  .single-content .content-block .post-share-icons ul a {
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    width: 43px;
+  }
+  .single-content .content-block .featured-img {
+    width: 100%;
+  }
+  .single-content .content-block .featured-img img {
+    width: 100%;
+    height: auto;
+  }
+  .single-content .content-block .timeline-news {
+    width: 100%;
+  }
+  .related-post .block {
+    margin-bottom: 20px;
+  }
+}
+/*    Mobile Layout: 320px.
+    Gutters: 24px.
+    Outer margins: 34px.
+    Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  #breaking-news-bar .block {
+    display: none;
+  }
+  .single-content {
+    padding: 30px 0;
+  }
+  .single-content .content-block .post-share-icons ul li {
+    display: inline-block;
+  }
+  .single-content .content-block .post-share-icons ul a {
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    width: 43px;
+  }
+  .single-content .content-block .featured-img {
+    width: 100%;
+  }
+  .single-content .content-block .featured-img img {
+    width: 100%;
+    height: auto;
+  }
+  .single-content .content-block .timeline-news {
+    width: 100%;
+  }
+  header .main-menu {
+    margin-left: 0;
+  }
+}
+/*    Wide Mobile Layout: 480px.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #breaking-news-bar .block {
+    display: none;
+  }
+  .single-content {
+    padding: 30px 0;
+  }
+  .single-content .content-block .post-share-icons ul li {
+    display: inline-block;
+  }
+  .single-content .content-block .post-share-icons ul a {
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    width: 43px;
+  }
+  .single-content .content-block .featured-img {
+    width: 100%;
+  }
+  .single-content .content-block .featured-img img {
+    width: 100%;
+    height: auto;
+  }
+  .single-content .content-block .timeline-news {
+    width: 100%;
+  }
+}
+/*  Retina media query.
+  Overrides styles for devices with a 
+  device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */

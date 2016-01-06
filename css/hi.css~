@@ -1,0 +1,53 @@
+#news-part-2 > .container {
+background-color: rgb(210, 212, 213);
+}
+
+.navbar-nav > li>a:hover {
+color: white;
+}
+
+.home-sidebar {
+padding: 20px 20px 22px 20px;
+}
+
+#latest-news-wrapper .latest-news {
+padding-bottom: 0px 20px 20px 20px;
+}
+
+.related-post .block {
+width: 212px;
+height: 223px;
+}
+
+
+boot
+@media (min-width: 1200px)
+.container {
+width: 1249px;
+}
+
+second:
+
+.media.news-media {
+margin-top: 0;
+}
+
+#latest-news-wrapper .latest-news {
+padding: 0px 20px 20px 20px;
+}
+
+.margin-10 {
+margin-top: 0;
+}
+
+.news-box {
+padding-top: 20px;
+}
+.banner{
+	padding-top: 20px;
+}
+
+.menu-block .block img {
+width: 251px;
+height: 168px;
+}
